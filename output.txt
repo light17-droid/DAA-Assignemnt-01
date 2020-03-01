@@ -1,0 +1,51 @@
+OUPUT #1:
+Enter the value of M:-
+
+1234
+Enter the value of N:-
+
+1236
+
+Number is :     1236
+
+Operations :3
+-----------------------------------------------------------------------------------------------------------
+OUPUT #2:
+Enter the value of M:-
+
+20
+
+Digit zero is invalid
+-----------------------------------------------------------------------------------------------------------
+OUPUT #3:
+Enter the value of M:-
+
+35
+Enter the value of N:-
+
+121
+
+Number is :     36
+
+Number is :     44
+
+Number is :     48
+
+Number is :     55
+
+Number is :     66
+
+Number is :     77
+
+Number is :     88
+
+Number is :     99
+
+Number is :     111
+
+Number is :     112
+
+Number is :     115
+
+Operations :87
+-----------------------------------------------------------------------------------------------------------
