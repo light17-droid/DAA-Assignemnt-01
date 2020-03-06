@@ -5,29 +5,9 @@ class Asn01P01
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value of M:-\n");
-		int M = sc.nextInt();
-		int m = M;
-		while(m>0)
-		{
-			if(m%10 == 0)
-			{
-				System.out.println("\nDigit zero is invalid");
-				return;
-			}
-			m /= 10;
-		}
+		int M = checkValidity(sc.nextInt());
 		System.out.println("Enter the value of N:-\n");
-		int N = sc.nextInt();
-		m = N;
-		while(m>0)
-		{
-			if(m % 10 == 0)
-			{
-				System.out.println("\nDigit zero is invalid");
-				return;
-			}
-			m /= 10;
-		}
+		int N = checkValidity(sc.nextInt());
 		int i, num = 0, c = 0, flag, digit = 0;
 		for(i=M;i<=N;i++)
 		{
@@ -49,5 +29,16 @@ class Asn01P01
 			c++;
 		}
 		System.out.println("\nOperations :"+c+"\n-----------------------------------------------------------------------------------------------------------");
+	}
+  	static int checkValidity(int n){
+    		int a = n;
+    		while(a > 0){
+			if(a % 10 == 0){
+				System.out.println("\nDigit zero is invalid");
+        			System.exit(0);
+			}
+			a /= 10;
+		}
+    		return n;
 	}
 }
